@@ -24,6 +24,6 @@ $(document).ready(function () {
         $(".mean8").slideToggle()
     })
     $(".ret").click(function () {
-        $(".mean9").slideToggle()/
+        $(".mean9").slideToggle()
     })
    })
