@@ -1,8 +1,6 @@
 $(document).ready(function () {
     $('.java').click(function () {
         $('.mean1').slideToggle()
-        $(".mean2").slideToggle()
-    })
     })
     $(".var").click(function () {
         $(".mean2").slideToggle()
