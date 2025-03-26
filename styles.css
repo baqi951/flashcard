@@ -1,0 +1,87 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    align-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(170, 89, 151);
+    margin-bottom: 70px;
+    height: 50px;
+    width: 50%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 75vh;
+    width: 80%;
+    margin: 5px;
+}
+
+.boxdiv {
+    justify-items: center;
+    align-content: center;
+    width: 25%;
+    background-color: white;
+    margin: 10px;
+    font-family: sans-serif;
+    color: rgb(116, 114, 114);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    cursor: pointer;
+}
+
+.boxdiv:first-child {
+    box-shadow: rgba(240, 46, 170, 0.4) -5px -5px, rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;
+}
+
+.boxdiv:nth-child(3) {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px;
+}
+
+.boxdiv:nth-child(7) {
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.boxdiv:last-child {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.topline {
+    border-TOP: 1px solid rgba(128, 128, 128, 0.692);
+}
+
+h1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.692);
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.meaning {
+    height: 17vmin;
+    width: 100%;
+    padding: 15px;
+    overflow: auto;
+    display: none;
+}
